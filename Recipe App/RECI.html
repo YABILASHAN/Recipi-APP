@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="RECI.css">
+    <title>RECIPI APP</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>RECIPI SEARCH APP</h1>
+            <form>
+                <input type="text" id="search" placeholder="Search recipes..." class="searchBox" />
+                <button type="button" id="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipi-container">
+                <h2>Search your favorite recipes</h2>
+                <div id="recipeList" class="recipe-list"></div>
+            </div>
+        </section>
+
+        <section id="recipeDetails" class="recipe-details">
+            <h2 id="recipeName"></h2>
+            <img id="recipeImage" alt="Recipe Image" />
+            <p id="recipeInstructions"></p>
+        </section>
+    </main>
+
+    <script src="RECI.js"></script>
+</body>
+
+</html>
